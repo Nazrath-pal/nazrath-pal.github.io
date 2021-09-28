@@ -22,7 +22,7 @@ title: Nazrath Pal
 email: nazzru@gmail.com
 description: Exploring Data Science
 domain: nazrath-pal.com
-baseurl: /docs/ # the subpath of your site, e.g. /blog
+baseurl: / # the subpath of your site, e.g. /blog
 url: https://nazrath-pal.com # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: NazrathPal
 github_username: nazrath-pal
