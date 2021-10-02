@@ -931,6 +931,10 @@ body {
   .post-content{
     padding-bottom: 50px;
   }
+
+  .post-content h2 {
+    color: #419989;
+  }
   
   /*--------------------------------------------------------------
   # Footer
