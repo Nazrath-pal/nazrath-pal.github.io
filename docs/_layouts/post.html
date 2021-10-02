@@ -2,7 +2,6 @@
 layout: default
 ---
 <article class="container post h-entry" itemscope itemtype="http://schema.org/BlogPosting" aria-label="Content">
-
   <header class="post-header">
     <p class="post-meta">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
@@ -17,10 +16,8 @@ layout: default
         </time>
       {%- endif -%}
   </header>
-
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
-
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>

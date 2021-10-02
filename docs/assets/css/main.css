@@ -927,6 +927,10 @@ body {
   .navbar-brand h1 {
     padding-top: 10px;
   }
+
+  .post-content{
+    padding-bottom: 50px;
+  }
   
   /*--------------------------------------------------------------
   # Footer

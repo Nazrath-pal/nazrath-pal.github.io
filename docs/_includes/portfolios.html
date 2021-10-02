@@ -11,7 +11,7 @@
         {%- for post in site.posts -%}
         <div class="col-lg-4 col-md-6 portfolio-item filter-app" style="position: absolute; left: 0px; top: 0px;">
           <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+            <img src="/assets/img/portfolio/{{post.thumbnail}}.jpg" class="img-fluid" alt="">
             <div class="portfolio-links">
               <span>{{ post.title | escape }}</span>
               <a href="{{ post.url | relative_url }}" title="More Details"><i class="bx bx-link"></i></a>
