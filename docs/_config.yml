@@ -27,7 +27,6 @@ url: https://nazrath-pal.com # the base hostname & protocol for your site, e.g. 
 twitter_username: NazrathPal
 github_username: nazrath-pal
 markdown: GFM
-theme: minima
 # Build settings
 plugins:
   - jekyll-feed
