@@ -3,5 +3,34 @@ layout: default
 ---
 
 <div class="home">
-  {{ content }}
+  <main class="container page-content" aria-label="Content">
+    <div class="wrapper py-8 py-md-11">
+      {{ content }}
+    </div>
+  </main>
+
+  <section id="portfolio" class="portfolio section-bg">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Portfolio</h2>
+        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+      </div>
+
+    {%- if site.posts.size > 0 -%}
+      <div class="row portfolio-container aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" style="position: relative; height: 1410px;">
+        {%- for post in site.posts -%}
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app" style="position: absolute; left: 0px; top: 0px;">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+            <div class="portfolio-links">
+              <a href="{{ post.url | relative_url }}" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+        </div>
+        {%- endfor -%}
+      </div>
+    {%- endif -%}
+    </div>
+  </section>
 </div>
