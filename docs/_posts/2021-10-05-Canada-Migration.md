@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Immigration to Canada
+title:  Canada migration
 categories: portfolio
 thumbnail: 'canada-immigration'
 ---
