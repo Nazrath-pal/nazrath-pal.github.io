@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Canada Migration Rate
+title:  Immigration to Canada
 categories: portfolio
 thumbnail: 'canada-immigration'
 ---
